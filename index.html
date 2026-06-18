@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - CRUD</title> 
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <fieldset>
+        <legend class="titulo1">Cadastro do seu novo pet</legend>
+        
+        <label for="Nomepet"> Nome do animal:
+            <input type="text" id="Nomepet" minlength="2" maxlength="50" placeholder="Digite o nome do seu pet">
+        </label> 
+
+        <label for="Nometutor">Nome do tutor:
+            <input type="text" id="Nometutor" minlength="2" maxlength="50" placeholder="Digite o seu nome">
+        </label> 
+
+        <label for="fonepet">Telefone do tutor:
+            <input type="number" id="fonepet" placeholder="Digite seu telefone">
+        </label>
+
+        <div class="pets">
+            <button type="button" onclick="escolherpet()" style="background-color: rgba(146, 255, 152, 0.822);">Escolha seu pet</button>
+        </div>
+    </fieldset> 
+
+    <script src="crud.js"></script>
+</body>
+</html>

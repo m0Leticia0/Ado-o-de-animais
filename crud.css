@@ -1,0 +1,56 @@
+
+body{
+    background-image: url(https://i.pinimg.com/736x/2f/52/85/2f528565453c80ca59425a9aa0e14661.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo1{
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+}
+
+fieldset{
+    background-color: rgba(255, 213, 252, 0.356);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+}
+
+.butao{
+    display: row;
+    flex-direction: row;
+   margin: auto;
+
+}
+
+.pets{
+    margin: auto;
+}
+
+button{
+    margin: auto;
+    margin-top: 5px;
+    background-attachment: fixed;
+    font-size: 25px;
+}
+
+label{
+    font-size: 30px;
+    margin-left: 600px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+}
+
+input{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

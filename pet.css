@@ -1,0 +1,13 @@
+
+body{
+     background-image: url("https://i.pinimg.com/736x/29/68/11/2968113a1132d08a5a479104b0845a0e.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+};
+
+.fotos{
+     display: flex;
+     flex-direction: row;
+     justify-self: center;
+}
